@@ -7,3 +7,8 @@ variable "hosted_zone_id" {}
 variable "ports" {}
 variable "volume_size" {}
 
+variable "site_name" {
+  type        = string
+  description = "name of the site"
+  default     = "sridevops.site"
+}

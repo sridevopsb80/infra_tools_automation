@@ -3,7 +3,7 @@
 terraform {
   backend "s3" {
     bucket = "sridevopsb80-terraform"
-    key    = "tools/terraform.tfstate"
+    key    = "infra-tools/terraform.tfstate"
     region = "us-east-1"
   }
 }

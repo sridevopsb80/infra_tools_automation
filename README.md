@@ -1,4 +1,4 @@
-# To setup tools via automation
+# To setup infra tools via automation
 
 infra-create folder - used to provision infra resources using terraform. also refer main.tf, state.tf and variables.tf
 roles folder - using ansible to install github runner in the provisioned resources. Also refer tool-setup.yml
