@@ -14,7 +14,7 @@ variable "tools" {
   default = {
     github-runner = {
       instance_type = "t3.small"
-      policy_name   = ["AdministratorAccess"]  # policy_name is a list. more policies can be added later.
+      policy_name   = ["AdministratorAccess"] # policy_name is a list. more policies can be added later.
       ports         = {}
       volume_size   = 20
     }
@@ -27,14 +27,14 @@ variable "tools" {
       }
       volume_size = 20
     }
-   # minikube = {
-#     instance_type = "t3.medium"
-#     policy_name   = []
-#     ports = {
-#     kube = 8443
-#       }
-#     volume_size = 30
-#     }
+    # minikube = {
+    #     instance_type = "t3.medium"
+    #     policy_name   = []
+    #     ports = {
+    #     kube = 8443
+    #       }
+    #     volume_size = 30
+    #     }
   }
 }
 
