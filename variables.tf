@@ -38,7 +38,7 @@ variable "tools" {
   }
 }
 
-variable "hosted_zone_id" {
-  type    = string
-  default = "Z02073473N3J0S3WVZG5G"
-}
+# variable "hosted_zone_id" {
+#   type    = string
+#   default = "Z02073473N3J0S3WVZG5G"
+# }
