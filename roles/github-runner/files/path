@@ -1,7 +1,8 @@
 #!/bin/bash
 
 # gh runner service derives path from runsvc.sh
-# path derived from there during ansible execution is not the same path 
-# as the one derived in shell execution. this file has the shell path
+# path derived from there during ansible execution 
+# is not the same path as the one derived in shell execution. 
+# this file has the shell path
 
 /home/grunner/.local/bin:/home/grunner/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin
