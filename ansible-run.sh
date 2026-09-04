@@ -5,9 +5,10 @@
 set -e
 
 HOST="$1"
+TOOL="$2"
 
 # shellcheck disable=SC2296
 ansible-playbook -i "${HOST}", \
     tool-setup.yml -e ansible_user=ec2-user \
     -e ansible_password=DevOps321 \
-    -e tool_name=github-runner
+    -e tool_name="${TOOL}"
