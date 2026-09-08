@@ -5,7 +5,7 @@
 # Go to https://github.com/organizations/<org_name>/settings/actions/runners 
 # Check Create self-hosted runner for steps to add a self-hosted runner to github actions
 
-# Note: ./config.sh --url https://github.com/sridevopsb80 --token BJ6WX5NLJBIMW4AQGYSBJADKQCQCQ
+# Note: ./config.sh --url https://github.com/sridevopsb80 --token <token>
 # token is unique. automating this might not work. run this step manually
 
 
